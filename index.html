@@ -238,31 +238,31 @@
         if(touchStrings.some(i => lockCanvasText.includes(i))) {
           if(isDeviceTouch) {
             if(mobileStrings.some(i => lockCanvasText.includes(i))) {
-              lock(canvas, 9 / 16 );
+              lock(canvas, 800 / 800 );
             }
           } else {
             if(desktopStrings.some(i => lockCanvasText.includes(i))) {
-              lock(canvas, 9 / 16 );
+              lock(canvas, 800 / 800 );
             }
           }
         } else if(navigatorStrings.some(i => lockCanvasText.includes(i))) {
           if(isDeviceNavigator) {
             if(mobileStrings.some(i => lockCanvasText.includes(i))) {
-              lock(canvas, 9 / 16 );
+              lock(canvas, 800 / 800 );
             }
           } else {
             if(desktopStrings.some(i => lockCanvasText.includes(i))) {
-              lock(canvas, 9 / 16 );
+              lock(canvas, 800 / 800 );
             }
           }
         } else {
           if(isDeviceNavigator) {
             if(mobileStrings.some(i => lockCanvasText.includes(i))) {
-              lock(canvas, 9 / 16 );
+              lock(canvas, 800 / 800 );
             }
           } else {
             if(desktopStrings.some(i => lockCanvasText.includes(i))) {
-              lock(canvas, 9 / 16 );
+              lock(canvas, 800 / 800 );
             }
           }
         }
@@ -369,14 +369,14 @@
                     }
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'Build/1.loader.js'
+                    unityLoader.src = 'Build/iliOVK.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                             canvas,
                             {
-                                dataUrl: 'Build/1.data.unityweb',
-                                frameworkUrl: 'Build/1.framework.js.unityweb',
-                                codeUrl: 'Build/1.wasm.unityweb',
+                                dataUrl: 'Build/iliOVK.data.unityweb',
+                                frameworkUrl: 'Build/iliOVK.framework.js.unityweb',
+                                codeUrl: 'Build/iliOVK.wasm.unityweb',
                                 streamingAssetsUrl: 'StreamingAssets',
                                 companyName: 'Ilinskii',
                                 productName: 'iliO',
